@@ -1,0 +1,43 @@
+header{
+    height:100px;
+    width:100%;
+    background-color: #d50202;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    position:relative;
+}
+li{
+    font-size:large;
+    font-weight: 600;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+
+  
+}
+header div img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 40px; }
+ul {
+    padding:0px;
+    margin:0px;
+    list-style-type: none;;
+    display:flex;
+    gap:40px;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+body{
+    margin:0;
+}
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    transition: color 0.3s;
+}
