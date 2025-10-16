@@ -1,7 +1,7 @@
 header{
     height:100px;
     width:100%;
-    background-color: #d50202;
+    background-color: #000000;
     display: flex;
     align-items:center;
     justify-content: flex-start;
@@ -41,3 +41,4 @@ ul a {
     font-weight: 500;
     transition: color 0.3s;
 }
+
